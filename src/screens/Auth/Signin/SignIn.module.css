@@ -1,0 +1,223 @@
+.welcome {
+  font-family: Bari Sans Medium;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.login_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+  margin: auto;
+  width: 72%;
+  max-width: 1200px;
+}
+
+.mask_group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.mask_group div {
+  padding: 10px;
+  font-family: Bari Sans;
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.login_form {
+  margin: 15px;
+  background: white;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 355px;
+  margin-right: 2em;
+  box-shadow: 0px 4px 62px -4px #99ABC62E;
+
+
+}
+
+.input_group {
+  margin-bottom: 1em;
+  position: relative;
+}
+
+/* .input_group label {
+  font-family: Bari Sans;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0D0140;
+  letter-spacing: 0px;
+  text-align: left;
+} */
+
+.signInText {
+  /* textAlign: "center", width: "100%", marginTop: "0px" */
+  padding: 0px 25px 25px 25px;
+  width: 100%;
+  margin-top: 0px;
+  font-family: Bari Sans;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0D0140;
+}
+
+/* .input_group input {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: Bari Sans;
+  font-size: 14px;
+  font-weight: 400;
+  color: #949494;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 8px;
+} */
+
+.eye_icon {
+  position: absolute;
+  right: 0px;
+  /* Adjust as needed */
+  top: 76%;
+  transform: translateY(-50%);
+
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.actions .checkbox {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.actions .checkbox input {
+  margin-right: 0.5em;
+}
+
+.checkbox label {
+  font-family: Bari Sans;
+  font-size: 14px;
+  font-weight: 500;
+  color: #25282B;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+
+.forgetText {
+  font-family: Bari Sans;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1E1E1F;
+  text-decoration: underline;
+  letter-spacing: 0px;
+  text-align: right;
+
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .button {
+  font-family: Bari Sans;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin-top: 25px;
+  width: 100%;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  justify-content: center;
+} */
+
+button:hover {
+  background-color: #333;
+}
+
+.illustration img {
+  max-width: 800px;
+  height: 500px;
+  margin-left: 100px;
+}
+
+
+.input_group label {
+  justify-self: flex-start;
+  display: block;
+  margin-bottom: 5px;
+  font-family: Bari Sans Medium;
+  font-size: 16px;
+  font-weight: 900;
+  color: #0D0140;
+  letter-spacing: 0.25px;
+  text-align: left;
+
+}
+
+.input_group input {
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  border: 0.5px solid #484848;
+  border-radius: 5px;
+  height: 22px;
+  font-family: Bari Sans;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: #484848;
+
+}
+
+.button {
+  font-family: Bari Sans;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin: 15px;
+  /* width: 150px; */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1E1E1F;
+  color: white;
+  cursor: pointer;
+}

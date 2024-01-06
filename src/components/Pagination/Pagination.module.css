@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  user-select: none;
+  padding-right: 30px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+}
+.box div:first-child{
+  font-family: Lato;
+font-size: 16px;
+font-weight: 600;
+color: #656565;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.box select{
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.box select::selection{
+  border: none;
+  box-shadow: 0px 2.039573907852173px 3.059360980987549px -2.039573907852173px #1018281A;
+}
+.box img {
+  cursor: pointer;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.list div{
+  font-family: Lato;
+font-size: 16px;
+font-weight: 600;
+color: #656565
+;
+letter-spacing: 0em;
+text-align: center;
+
+}

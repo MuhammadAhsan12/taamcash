@@ -1,0 +1,123 @@
+.main {
+    width: 100%;
+    /* height: 192vh; */
+    padding: 50px 65px 0px 35px;
+    /* overflow-y: scroll; */
+    border-left: 2px solid rgb(228, 228, 228);
+}
+
+.main .maindiv {
+    padding-bottom: 20px;
+}
+
+.title {
+    font-family: Bari Sans Medium;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0D0140;
+
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.chartview {
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    padding-top: 20px;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Bari Sans;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    color: black;
+}
+
+.navigation a:hover::after,
+.navigation a.active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+
+.headButton {
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #9CA3AF;
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 600;
+    padding: 8px 20px 8px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    gap: 10px;
+}
+.body {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.body div {
+    max-width: 950px;
+    max-height: 480px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.legendCustom {
+    width: 10px !important;
+    /* Adjust the width as needed */
+}
+
+.footer {
+    width: 100%;
+}
+
+@media (max-height: 800px) {
+    .body div {
+        max-width: 950px;
+        max-height: 380px;
+    }
+}

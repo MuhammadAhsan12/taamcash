@@ -1,0 +1,143 @@
+.main {
+  width: 25vw;
+  height: 100%;
+  max-width: 300px;
+  user-select: none;
+  transition: width 0.3s ease;
+}
+.mainClose{
+  width: 8vw;
+  height: 100%;
+  max-width: 300px;
+  user-select: none;
+  transition: width 0.3s ease;
+}
+
+.inner {
+  /* width: 100%; */
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 30px 10px 30px 40px;
+  /* border-right: 2px solid rgb(228, 228, 228); */
+  overflow: hidden;
+}
+
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profile h2 {
+  font-size: 16px;
+}
+
+.profile h6 {
+  font-size: 16px;
+}
+
+.profile .mainImage {
+  width: 100px;
+  height: 100px;
+}
+.profile .mainCloseImage {
+  width: 75px;
+  height: 75px;
+}
+
+.profile div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.profile div h2,
+h6 {
+  align-self: flex-start;
+  text-align: start;
+}
+
+.tabs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  padding: 22px 15px 22px 15px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.tab h3 {
+  color: black;
+}
+
+.tab img {
+  width: 20px;
+  height: 20px;
+}
+
+.tabActive {
+  background: #1E1E1F;
+}
+
+.tabActive h3 {
+  color: white;
+}
+
+.logout {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  padding: 90px 0px 10px 20px;
+}
+
+.subItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 20px 0px 28px 15px;
+  gap: 16px;
+}
+
+.subItem a {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.bulletPoint {
+  width: 13px;
+  height: 13px;
+  background-color: #67d1ab;
+  border-radius: 50%;
+}
+
+.subItem a h3 {
+  width: 90%;
+}

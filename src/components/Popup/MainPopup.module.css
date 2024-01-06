@@ -1,0 +1,138 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #484952b6;
+  left: 0;
+  top: 0;
+  animation: flasher 0.4s;
+}
+.styledDiv {
+  width: 550px;
+  max-width: 550px;
+  height: auto;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 40px;
+}
+.headerText{
+  font-family: Bari Sans;
+font-size: 45px;
+font-weight: 900px;
+color: #0D0140;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.styledDiv span{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.styledDiv p{
+  font-family: Bari Sans;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+
+}
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.body {
+  width: 100%;
+  /* padding: 10px 0px; */
+}
+.passwordChanged {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputCont {
+  width: 100%;
+}
+.inputCont label {
+  font-family: Bari Sans;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.25px;
+  /* text-align: left; */
+  
+}
+.input {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 0.53px solid #1E1E1F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 15px;
+  margin-top: 10px;
+}
+.input input {
+  width: 95%;
+  border: none;
+  outline: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+   -webkit-transition-delay: 9999s;
+   transition-delay: 9999s;
+}
+.input input::placeholder {
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+}
+.input img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+.footer button {
+  background-color: transparent;
+  border: none;
+  border: 1px solid#1E1E1F;
+  padding: 20px 0px 20px px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #1E1E1F  ;
+  color: white;
+  font-family: Bari Sans;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  
+}
+.buttonMain {
+  color: #ffffff;
+}
+@keyframes flasher {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}

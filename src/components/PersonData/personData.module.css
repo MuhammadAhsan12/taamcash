@@ -1,0 +1,108 @@
+.contentUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0px 20px 0px;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: inherit;
+}
+.personImage{
+    width: 150px;
+    height: 150px;
+}
+.userDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.personDetail{
+    font-family: Bari Sans;
+font-size: 16px;
+/* font-weight: 400; */
+letter-spacing: 0px;
+text-align: left;
+
+}
+.personImage{
+    width: 150px;
+    height: 150px;
+}
+.personName{
+    font-family: Bari Sans;
+    font-size: 22px;
+    font-weight: 1000;
+    padding: 0px 0px 5px 0px ;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.personName span{
+    font-family: Bari Sans;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: 0px;
+text-align: left;
+color:#23CC8C;
+
+}
+.person{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.person span{
+    padding: 10px;
+}
+
+.headButton {
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #9ca3af;
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 600;
+    padding: 8px 20px 8px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    gap: 10px;
+}
+  
+.userInformation{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+.userInformation div{
+    padding: 0px 80px 0px 0px;
+}
+.userInformation div div{
+    padding: 5px;
+}
+.userInformation div div:first-child{
+    font-family: Bari Sans;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0px;
+text-align: left;
+color:  #484848;
+}
+.userInformation div div:last-child{
+    font-family: SF Pro Display;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+color: black;
+}

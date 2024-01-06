@@ -1,0 +1,238 @@
+.main {
+    width: 100%;
+    /* height: 118vh; */
+    padding: 50px 65px 0px 35px;
+    /* overflow-y: scroll; */
+    border-left: 2px solid rgb(228, 228, 228);
+}
+
+.main .maindiv {
+    padding-bottom: 20px;
+}
+
+.title {
+    font-family: Bari Sans Medium;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #0D0140;
+}
+
+.navigation {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    padding: 25px 0px 15px 0px;
+    margin-right: 20px;
+    font-family: Bari Sans;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+}
+
+.navigation a:hover,
+.navigation a.active {
+    color: #1E1E1F;
+    font-family: Bari Sans Medium;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.navigation a:hover::after,
+.navigation a.active::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.form {
+    margin-top: 35px;
+}
+
+.contentCol {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 25px;
+    align-items: center;
+    /* margin-left: -30px; */
+}
+
+.contentMaterial {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contentMaterial img {
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+}
+
+.contentMaterial h5 {
+    color: black;
+}
+
+.showText {
+    text-align: justify;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.button {
+    padding: 40px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.saveButton {
+    font-family: Bari Sans Medium;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    width: 180px;
+    height: 45px;
+    border-radius: 4px;
+    background: #1E1E1F;
+    color: white;
+    border: 1.28px solid #1E1E1F
+}
+
+.draftButton {
+    font-family: Bari Sans Medium;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    margin-right: 20px;
+    width: 180px;
+    height: 45px;
+    border-radius: 4px;
+    background: white;
+    color: black;
+    border: 1.28px solid #1E1E1F
+}
+
+.formTitle {
+    font-family: Bari Sans Medium;
+    font-size: 22px;
+    font-weight: 500;
+    color: #1E1E1F;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.formTitleText {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #1E1E1F;
+    flex-shrink: 0;
+    background: #FBFBFB;
+}
+
+.formGroup input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.formGroup input {
+    font-size: 17px;
+    font-family: 'Mulish', sans-serif;
+    background: #FBFBFB;
+    margin-top: 20px;
+    padding: 5px 20px;
+    width: 96.5%;
+}
+
+.formGroup textarea {
+    padding: 20px 20px;
+    font-size: 17px;
+    font-family: 'Mulish', sans-serif;
+    height: 280px;
+    width: 96.5%;
+    flex-shrink: 0;
+    background: #FBFBFB;
+    border: 2px solid #1E1E1F
+}
+
+/* .description {
+    padding: 10px 0px;
+    font-family: Bari Sans;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: left;
+
+} */
+
+.formGroup textarea:focus {
+    box-shadow: none;
+    /* border: none; */
+    outline: none;
+}
+
+.textDiv {
+    border: 1px solid #DBDBDB;
+    background-color: #FBFBFB;
+    padding: 40px 30px 40px 30px;
+}
+
+.table img {
+    width: 20px;
+}
+.tableHead th{
+    font-family: Bari Sans Medium;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.rowStyling{
+    display: flex;
+    flex-direction: column;
+    padding-right: 150px;
+}
+.rowStyling span:first-child{
+    font-family: Bari Sans Medium;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0px;
+text-align: left;
+}
+.rowStyling .description{
+    padding: 10px 0px;
+    font-family: Bari Sans;
+font-size: 13px;
+font-weight: 800;
+letter-spacing: 0px;
+text-align: left;
+
+}

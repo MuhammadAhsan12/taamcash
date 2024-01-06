@@ -1,0 +1,38 @@
+/* fonts.css */
+
+@font-face {
+    font-family: 'Bari Sans';
+    src: url('./fonts/BariSans-Light.otf') format('truetype');
+    /* Add more src declarations for other font variations (Bold, Italic, etc.) if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Bari Sans Medium';
+    src: url('./fonts/BariSans-Medium.otf') format('truetype');
+    /* Add more src declarations for other font variations (Bold, Italic, etc.) if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('./fonts/SFPRODISPLAYREGULAR.OTF') format('truetype');
+    /* Add more src declarations for other font variations (Bold, Italic, etc.) if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.ttf') format('truetype');
+    /* Add more src declarations for other font variations (Bold, Italic, etc.) if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf') format('truetype');
+    /* Add more src declarations for other font variations (Bold, Italic, etc.) if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+  

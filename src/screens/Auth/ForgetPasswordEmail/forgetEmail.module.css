@@ -1,0 +1,121 @@
+.mask_group img {
+  width: 240px;
+  height: 59.92px;
+}
+
+.forgot_password_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  background-color: #FAFAFA;
+
+}
+
+.forgot_password_card {
+  box-shadow: 0px 4px 62px -4px #99ABC62E;
+
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 60px 100px;
+  border-radius: 10px;
+  height: auto;
+  width: 400px;
+  border: 1px solid #DADADA;
+}
+
+.forgot_password_card form div:first-child {
+
+  margin-bottom: 20px;
+  font-family: Bari Sans Medium;
+  font-size: 34px;
+  font-weight: 600;
+  color: #0D0140;
+  letter-spacing: 0em;
+
+}
+
+.forgot_password_card div {
+  font-family: Bari Sans;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  color: #484848;
+  letter-spacing: 0.2000000596046448px;
+  text-align: center;
+  /* margin: 0px 70px; */
+
+}
+
+.forgot_password_card form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forgot_password_card form div {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.input_group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.input_group label {
+  justify-self: flex-start;
+  display: block;
+  margin-bottom: 5px;
+  font-family: Bari Sans Medium;
+  font-size: 16px;
+  font-weight: 900;
+  color: #0D0140;
+  letter-spacing: 0.25px;
+  text-align: left;
+
+}
+
+.input_group input {
+  width: 430px;
+  padding: 10px 25px;
+  border: 0.5px solid #484848;
+  border-radius: 5px;
+  height: 22px;
+  font-family: Bari Sans;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: #484848;
+
+}
+
+.button {
+  font-family: Bari Sans;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin: 15px;
+  /* width: 150px; */
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1E1E1F;
+  color: white;
+  cursor: pointer;
+}

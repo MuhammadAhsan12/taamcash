@@ -1,0 +1,167 @@
+.main {
+  width: 100%;
+  /* height: 92vh; */
+  padding: 50px 65px 0px 35px;
+  /* overflow-y: scroll; */
+    border-left: 2px solid rgb(228, 228, 228);
+}
+
+.main .maindiv {
+  padding-bottom: 20px;
+}
+.title {
+  font-family: Bari Sans;
+  font-size: 24px;
+  font-weight: bolder;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #0D0140; 
+}
+.Profile{
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profileImg {
+  align-self: flex-start;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.camera {
+  width: 50px;
+  height: 50px;
+  background-color: #1E1E1F;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.profileFields{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+}
+.form {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 35px; */
+}
+.buttonRow{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 20px;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.formGroup input {
+  width: 241px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #C4C4C4;
+  padding: 0px 15px 0px 15px ;
+}
+.formGroup input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #1E1E1F;
+}
+.formGroup input::placeholder {
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+}
+.formGroup label {
+  font-family: Bari Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.buttonRow button{
+  width: 220px;
+}
+.cancel{
+  color:#1E1E1F;
+}
+.apply {
+  background-color: #1E1E1F;
+  color: white;
+}
+.change {
+  align-self: flex-start;
+  margin-bottom: 6px;
+  color:#1E1E1F;
+  border: none;
+  font-family: Bari Sans;
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: left;
+
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding: 13px;
+}
+.footer .cancel,.footer .apply{
+  font-family: Bari Sans Medium;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0.06em;
+text-align: center;
+
+  text-align: center;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 15px 80px;
+  border-radius: 4px;
+  
+}
+.cancel {
+  color: #000000;
+}
+.apply {
+  background-color: #000000;
+  background: #000000;
+  color: white;
+}
+

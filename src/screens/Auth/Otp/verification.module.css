@@ -1,0 +1,150 @@
+.mask-group {
+  margin: 20px;
+  
+}
+
+/* .mask_group img {
+  width: 240px;
+  height: 59.92px;
+} */
+
+.verification_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh; 
+  /* padding: 20px; */
+  background-color: #FAFAFA;
+}
+
+.verification_card {
+  background-color: #fff;
+  padding: 20px 80px ;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0px 4px 62px -4px #99ABC62E;
+  border: 1px solid #DADADA;
+  height: auto;
+  width: 400px;
+}
+.forgot_password_card {
+
+
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+
+
+}
+
+
+.verification_card div:first-child {
+  padding-top: 10px;
+  margin-top: 0px;
+  font-family: Bari Sans Medium;
+font-size: 34px;
+font-weight: 1000;
+color: #0D0140;
+letter-spacing: 0em;
+text-align: center;
+
+  margin-bottom: 8px;
+}
+
+.verification_card p {
+  margin-bottom: 24px;
+  font-family: Bari Sans;
+  font-size: 15px;
+  font-weight: 500;
+  color: #828282;
+  letter-spacing: 0.15000000596046448px;
+  text-align: center;
+  
+}
+
+.code_inputs input {
+  width: 70px;
+  height: 70px;
+  margin: 0 8px;
+  text-align: center;
+  font-size: 36px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  gap: 24px;
+}
+
+.timer {
+  margin: 24px 0;
+  font-family: Bari Sans;
+font-size: 16px;
+font-weight: 800;
+color: #0D0140;
+letter-spacing: 0.15000000596046448px;
+text-align: center;
+
+}
+
+button {
+  font-family: Bari Sans;
+font-size: 15px;
+font-weight: 700;
+letter-spacing: 0.06em;
+text-align: center;
+
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.resend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  white-space: nowrap;
+  position: relative;
+  left: 20%;
+  transform: translateY(-50%);
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+font-family: Bari Sans;
+font-size: 14px;
+font-weight: 400;
+color: #828282
+;
+letter-spacing: 0.25px;
+text-align: center;
+
+}
+
+.resend button {
+  background: none;
+  border: none;
+  color: #0d0140;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  font-family: Bari Sans Medium;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  text-align: center;
+  
+}

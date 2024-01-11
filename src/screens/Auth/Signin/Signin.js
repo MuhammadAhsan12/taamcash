@@ -42,7 +42,7 @@ const SignIn = () => {
           </div>
         </div>
         <div className={styles.illustration}>
-          <img src="/Images/Auth/taamcashbg.svg" alt="TaamCash Demo" />
+          <img src="/Images/Auth/Group 33996.png" alt="TaamCash Demo" />
         </div>
       </div>
     </>
